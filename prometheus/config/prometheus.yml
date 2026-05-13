@@ -4,8 +4,8 @@ global:
   external_labels:
     monitor: "my-project"
 
-rule_files:
-  - "alert.rules"
+#rule_files:
+#  - "alert.rules"
 
 scrape_configs:
   - job_name: "prometheus"
